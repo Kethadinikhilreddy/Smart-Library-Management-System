@@ -37,7 +37,7 @@ This application helps manage library operations such as **admin management, boo
 | Database    | MySQL                 |
 | Server      | Apache Tomcat         |
 | Build Tool  | Maven                 |
-| IDE         | Eclipse / IntelliJ    |
+| IDE         | Eclipse               |
 
 
 ---
