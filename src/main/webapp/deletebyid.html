@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Book</title>
+    <link rel="stylesheet" href="css/delete.css">
+</head>
+<body>
+
+
+    <div class="delete-container">
+        <h2>Delete Book</h2>
+
+        <form action="delete" method="post" onsubmit="return confirmDelete();">
+
+
+            <label for="bookId">Book ID</label>
+            <input type="number" id="bookId" name="id" placeholder="Enter Book ID" required>
+
+            <input type="hidden" name="message" value="deletebyid">
+            <input type="hidden" name="super" value="deletebook">
+
+            <button type="submit">Delete Book</button>
+        </form>
+    </div>
+    
+    <script>
+		function confirmDelete() {
+    			const id = document.getElementById("bookId").value;
+    			return confirm("Are you sure you want to delete Book ID: " + id + "?");
+}
+</script>
+    
+
+</body>
+</html>

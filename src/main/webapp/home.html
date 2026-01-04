@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<header class="header">
+    <marquee behavior="scroll" direction="left" scrollamount="8">
+        📚 Welcome to Library Management System 📚
+    </marquee>
+</header>
+
+
+<nav class="navbar">
+
+    <div class="nav-left">
+        <div class="dropdown">
+            <button class="dropbtn">Books ▾</button>
+            <div class="dropdown-content">
+                <a href="addbook.html">Add Book</a>
+                <a href="getbookbyid.html">Get Book By ID</a>
+                <a href="displayallbooks">Display All Books</a>
+                <a href="deletebyid.html">Delete Book</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-right">
+        <div class="dropdown">
+            <button class="dropbtn profile-btn">Profile ▾</button>
+            <div class="dropdown-content dropdown-right">
+                <a href="profile">View Profile</a>
+                <a href="logout">Logout</a>
+            </div>
+        </div>
+    </div>
+
+</nav>
+
+<div class="content">
+    <h2>Dashboard</h2>
+    <p>Use the navigation bar to manage library operations.</p>
+</div>
+
+</body>
+</html>

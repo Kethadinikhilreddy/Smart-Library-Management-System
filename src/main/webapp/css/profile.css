@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #f2f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile card */
+.profile-container {
+    background: #ffffff;
+    width: 400px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Profile rows */
+.profile-container h1 {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+}
+
+/* Action buttons container */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Buttons as links */
+.home-btn, .update-btn, .delete-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+/* Individual colors */
+.home-btn {
+    background-color: #1d2671;
+}
+.home-btn:hover {
+    background-color: #0f1c5c;
+}
+
+.update-btn {
+    background-color: #38ada9;
+}
+.update-btn:hover {
+    background-color: #1e8a84;
+}
+
+.delete-btn {
+    background-color: #e55039;
+}
+.delete-btn:hover {
+    background-color: #c0392b;
+}

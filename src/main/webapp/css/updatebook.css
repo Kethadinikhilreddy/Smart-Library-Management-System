@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #f2f5f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top bar */
+.top-bar {
+    width: 100%;
+    padding: 15px 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Home button */
+.home-btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #1d2671;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background-color: #0f1c5c;
+}
+
+/* Form container */
+.form-container {
+    margin-top: 40px;
+    background: #ffffff;
+    width: 420px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Update button */
+.update-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #38ada9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.update-btn:hover {
+    background-color: #1e8a84;
+}
