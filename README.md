@@ -41,23 +41,28 @@ This application helps manage library operations such as **admin management, boo
 
 
 ---
-## 🏗️ Project Structure
+## 🏗️ Project Architecture (Layered Design)
 
-library_management_system_using_hibernate_jsp
+library_management_system_using_hibernate_jsp/
 │
-├── src/main/java
-│ ├── org.controller → Servlet Controllers
-│ ├── org.dao → DAO Layer
-│ ├── org.dto → Entity Classes
-│ └── util → JPA Utility
+├── src/main/java/org/
+│   ├── controller/        → Servlet controllers handling HTTP requests and responses
+│   ├── dao/               → DAO layer; executes database operations using Hibernate
+│   ├── dto/               → Entity classes representing database tables
+│   ├── util/              → Utility classes (e.g., JPA utility for EntityManager)
 │
-├── src/main/webapp
-│ ├── *.jsp → JSP Pages
-│ ├── *.html → Static Pages
-│ └── *.css → Stylesheets
+├── src/main/webapp/
+│   ├── *.jsp              → JSP pages for user interface
+│   ├── *.html             → Static HTML pages
+│   └── *.css              → Stylesheets
 │
-├── pom.xml
-└── persistence.xml
+├── database/
+│   └── library_db.sql     → MySQL database schema and sample data
+│
+├── pom.xml                → Maven project configuration
+├── persistence.xml        → JPA/Hibernate configuration
+└── README.md              → Project documentation
+
 
 ## 🔄 Application Flow
 
