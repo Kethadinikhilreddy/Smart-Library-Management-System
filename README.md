@@ -29,20 +29,21 @@ This application helps manage library operations such as **admin management, boo
 
 ## 🛠️ Tech Stack
 
-|    Layer    |     Technology        |
-|-------------|-----------------------|
-| Backend     | Java, Servlets        |
-| Frontend    | JSP, HTML, CSS        |
-| ORM         | Hibernate (JPA)       |
-| Database    | MySQL                 |
-| Server      | Apache Tomcat         |
-| Build Tool  | Maven                 |
-| IDE         | Eclipse               |
-
+| Layer       | Technology           |
+|------------|---------------------|
+| Backend     | Java, Servlets      |
+| Frontend    | JSP, HTML, CSS      |
+| ORM         | Hibernate (JPA)     |
+| Database    | MySQL               |
+| Server      | Apache Tomcat       |
+| Build Tool  | Maven               |
+| IDE         | Eclipse             |
 
 ---
+
 ## 🏗️ Project Architecture (Layered Design)
 
+```
 library_management_system_using_hibernate_jsp/
 ├── src/
 │   └── main/
@@ -58,8 +59,9 @@ library_management_system_using_hibernate_jsp/
 │           └── *.css              → Stylesheets
 ├── pom.xml                        → Maven project configuration
 └── persistence.xml                → JPA/Hibernate configuration
+```
 
-
+---
 
 ## 🔄 Application Flow
 
@@ -68,14 +70,18 @@ library_management_system_using_hibernate_jsp/
 3. Admin can manage books and profile
 4. Hibernate handles database operations
 5. MySQL stores application data
-   
+
+---
+
 ## 📌 Future Enhancements
 
-1.User role management
-2.Book issue and return module
-3.Search and pagination
-4.Password encryption
-5.Migration to Spring Boot
+1. User role management  
+2. Book issue and return module  
+3. Search and pagination  
+4. Password encryption  
+5. Migration to Spring Boot  
+
+---
 
 ## ⭐ Support
 
